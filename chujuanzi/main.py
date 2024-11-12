@@ -74,7 +74,7 @@ title = Paragraph(JZ_TITLE, styles['title'])
 elements.append(title)
 
 elements.append(Paragraph("一、 选择题（每题 2 分，共 40 分）", styles['title_2']))
-for question in [q for q in questions if q["type"] == "选择题"]:
+for question in questions["选择题"]:
     # 添加选择题
     q_text = f"{question['id']}. {question['question']}"
     elements.append(Paragraph(q_text, styles['normal']))
@@ -83,12 +83,12 @@ for question in [q for q in questions if q["type"] == "选择题"]:
         elements.append(Paragraph(opt, styles['normal_indent']))
     elements.append(Spacer(1, 15))
 
-elements.append(Paragraph("二、 填空题（每题 4 分，共 20 分）", styles['title_2']))
-for question in [q for q in questions if q["type"] == "填空题"]:
-    # 添加填空题
-    q_text = f"{question['id']}. {question['question']}"
-    elements.append(Paragraph(q_text, styles['normal']))
-    elements.append(Spacer(1, 15))
+# elements.append(Paragraph("二、 填空题（每题 4 分，共 20 分）", styles['title_2']))
+# for question in [q for q in questions if q["type"] == "填空题"]:
+#     # 添加填空题
+#     q_text = f"{question['id']}. {question['question']}"
+#     elements.append(Paragraph(q_text, styles['normal']))
+#     elements.append(Spacer(1, 15))
 
 # # 遍历题目并生成内容
 # for question in questions:

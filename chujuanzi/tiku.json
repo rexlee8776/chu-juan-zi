@@ -1,7 +1,147 @@
 {
-    "xuanzeti": [
+    "选择题": [
         {
             "id": 1,
+            "question": "单向链表中的每个节点包含多少个指针？",
+            "options": [
+                "A. 0",
+                "B. 1",
+                "C. 2",
+                "D. 3"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "数据结构"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "以下哪种操作不是栈数据结构的特性？",
+            "options": [
+                "A. Push",
+                "B. Pop",
+                "C. Peek",
+                "D. Enqueue"
+            ],
+            "answer": "D",
+            "difficulty": "Easy",
+            "tags": [
+                "数据结构"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Bash脚本中，如何检查⼀个变量是否为空？",
+            "options": [
+                "A. if [ $var == \"\" ]; then",
+                "B. if [ -z $var ]; then",
+                "C. if [ $var ]; then",
+                "D. if [ ! $var ]; then"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "Bash",
+                "编程"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Bash脚本中，如何设置当脚本遇到错误时终⽌执⾏？",
+            "options": [
+                "A. set -a",
+                "B. set -e",
+                "C. set -o",
+                "D. set -u"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "Bash",
+                "编程"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "bash命令timeout设置了时间，过了超时时间timeout会kill掉bash命令此时返回的状态码是多少？",
+            "options": [
+                "A. 1",
+                "B. 124",
+                "C. 125",
+                "D. 126"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "Bash",
+                "编程"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "以下哪个命令可以打印出⽂件的第10⾏到第20⾏？",
+            "options": [
+                "A. sed -n '10,20p'",
+                "B. sed -n '10~20p'",
+                "C. sed -n '10q; 20p'",
+                "D. sed -n '10,+20p'"
+            ],
+            "answer": "A",
+            "difficulty": "Easy",
+            "tags": [
+                "Bash",
+                "编程"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "在⽂件 log.txt 中，⽤ sed 命令将 \"ERROR\" 替换为 \"WARNING\"，并仅打印替换后的⾏。哪个命令是正确的？",
+            "options": [
+                "A. sed -n 's/ERROR/WARNING/p' log.txt",
+                "B. sed 's/ERROR/WARNING/' log.txt",
+                "C. sed -p 's/ERROR/WARNING/g' log.txt",
+                "D. sed -n 's/WARNING/ERROR/p' log.txt"
+            ],
+            "answer": "A",
+            "difficulty": "Easy",
+            "tags": [
+                "Bash",
+                "编程"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "在存储层次结构中，访问速度最快的是哪种存储器？",
+            "options": [
+                "A. 主存储器（RAM）",
+                "B. 硬盘（HDD）",
+                "C. 缓存（Cache）",
+                "D. 外部存储器"
+            ],
+            "answer": "C",
+            "difficulty": "Easy",
+            "tags": [
+                "计算机体系结构"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "计算机指令的基本组成部分包括哪两部分？",
+            "options": [
+                "A. 操作码和操作数",
+                "B. 地址和数据",
+                "C. 数据和地址",
+                "D. 控制信号和状态"
+            ],
+            "answer": "A",
+            "difficulty": "Easy",
+            "tags": [
+                "计算机体系结构"
+            ]
+        },
+        {
+            "id": 10,
             "question": "进程之间的通信通常通过以下哪种机制实现？",
             "options": [
                 "A. 虚拟内存",
@@ -10,59 +150,785 @@
                 "D. 控制台"
             ],
             "answer": "B",
-            "type": "选择题"
+            "difficulty": "Easy",
+            "tags": [
+                "编程"
+            ]
         },
         {
-            "id": 2,
-            "question": "抢占式调度与非抢占式调度的区别在于",
+            "id": 11,
+            "question": "并⾏计算的主要⽬的是提⾼系统的（ ）",
             "options": [
-                "A. 抢占式调度允许进程占用 CPU",
-                "B. 非抢占式调度更适合实时系统",
-                "C. 抢占式调度允许中断当前进程",
-                "D. 非抢占式调度优先级更高"
+                "A. 可⽤性",
+                "B. 可靠性",
+                "C. 计算速度",
+                "D. 存储容量"
             ],
             "answer": "C",
-            "type": "选择题"
+            "difficulty": "Easy",
+            "tags": []
         },
         {
-            "id": 3,
-            "question": "内存墙（Memory Wall）问题是指CPU和内存之间速度差距过大的现象， 以下哪种技术用于缓解内存墙问题？",
+            "id": 12,
+            "question": "以下哪种排序算法的平均时间复杂度为 O(n logn)？",
             "options": [
-                "A. 增加硬盘容量",
-                "B. 使用多核 CPU",
-                "C. 增加缓存层次和频率",
-                "D. 使用图形处理单元（GPU）"
+                "A. 冒泡排序",
+                "B. 归并排序",
+                "C. 插⼊排序",
+                "D. 选择排序"
             ],
-            "answer": "C",
-            "type": "选择题"
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "算法"
+            ]
         },
         {
-            "id": 4,
-            "question": "计算机体系结构中，为了提高缓存命中率，以下哪种技术会将程序代码和数据局部化，减少缓存失效？",
+            "id": 13,
+            "question": "对于快速排序（Quicksort），在最坏情况下的时间复杂度是多少？",
             "options": [
-                "A. 循环展开",
-                "B. 数据预取",
-                "C. 分支预测",
-                "D. 虚拟内存"
+                "A. O(nlogn)",
+                "B. O(n^2)",
+                "C. O(n)",
+                "D. O(logn)"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": []
+        },
+        {
+            "id": 14,
+            "question": "对于归并排序（Merge Sort），其平均情况下的时间复杂度是多少？",
+            "options": [
+                "A. O(nlogn)",
+                "B. O(n^2)",
+                "C. O(n)",
+                "D. O(logn)"
             ],
             "answer": "A",
-            "type": "选择题"
+            "difficulty": "Easy",
+            "tags": []
         },
         {
-            "id": 5,
-            "question": "操作系统中，以下哪种调度算法在多任务环境中通常可以提供最低的响应时间？",
+            "id": 15,
+            "question": "以下哪种图的遍历⽅法优先访问相邻节点？",
             "options": [
-                "A. 先来先服务（FCFS）",
-                "B. 最短作业优先（SJF）",
-                "C. 时间片轮转（Round Robin）",
-                "D. 最高响应比优先（HRRN）"
+                "A. 深度优先搜索（DFS）",
+                "B. ⼴度优先搜索（BFS）",
+                "C. Dijkstra 算法",
+                "D. Kruskal 算法"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "算法"
+            ]
+        },
+        {
+            "id": 16,
+            "question": "在哈希表中，哈希函数的作⽤是（ ）",
+            "options": [
+                "A. 存储数据",
+                "B. ⽣成唯⼀标识符",
+                "C. 映射键到特定位置",
+                "D. 删除数据"
             ],
             "answer": "C",
-            "type": "选择题"
+            "difficulty": "Easy",
+            "tags": [
+                "数据结构"
+            ]
         },
         {
-            "id": 6,
-            "question": "守护进程退出后，其进程 ID（PID）会被操作系统",
+            "id": 17,
+            "question": "已知初始为空的双端队列Q的⼀端能进⾏⼊队操作⼜能进⾏出队操作，另⼀端只能进⾏出队操作，若Q的⼊队序列是1, 2, 3, 4, 5, 6，则以下出队序列哪个不可能出现？（ ）",
+            "options": [
+                "A. 1, 2, 3, 4, 5, 6",
+                "B. 6, 5, 4, 3, 2, 1",
+                "C. 1, 6, 2, 5, 3, 4",
+                "D. 6, 1, 5, 2, 4, 3"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "数据结构"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "⼩智有两个六个⾯的骰⼦，请问第⼀次投掷的点数⼤于第⼆次投掷点数的概率是多少？（ ）",
+            "options": [
+                "A. 1/2",
+                "B. 5/12",
+                "C. 4/9",
+                "D. 3/8"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "概率与统计"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "如下图⼀个树型结构，其结点E在树的中序遍历中的位次为（ ）",
+            "options": [
+                "A. 4",
+                "B. 5",
+                "C. 6",
+                "D. 7"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "数据结构"
+            ]
+        },
+        {
+            "id": 20,
+            "question": "在设计⼀个⽀持多种⽂件格式读取的⽂件解析系统时，要求该系统可以在未来轻松扩展以⽀持新的⽂件格式。以下哪个设计模式最适合应⽤在该场景中？（ ）",
+            "options": [
+                "A. 单例模式（Singleton） - 确保⽂件解析系统的实例在整个程序运⾏期间只有⼀个。",
+                "B. ⼯⼚⽅法模式（Factory Method） - 定义⼀个接⼝⽤于创建对象，由⼦类决定实例化哪种⽂件格式的解析类。",
+                "C. 观察者模式（Observer） - 在系统中添加新的⽂件格式时，通知所有已经加载的⽂件以便重新解析。",
+                "D. 模板⽅法模式（Template Method） - 定义⽂件解析的框架，具体的解析步骤由⼦类实现，避免重复代码。"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "设计模式"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "TCP/IP协议的传输层使⽤的协议有（ ）",
+            "options": [
+                "A. UDP和FTP",
+                "B. UDP和HTTP",
+                "C. TCP和UDP",
+                "D. HTTP和TCP"
+            ],
+            "answer": "C",
+            "difficulty": "Easy",
+            "tags": [
+                "⽹络"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "在TCP协议中，三次握⼿的⽬的是（ ）",
+            "options": [
+                "A. 建⽴可靠的连接",
+                "B. 确定数据包⼤⼩",
+                "C. 保证数据加密",
+                "D. 关闭连接"
+            ],
+            "answer": "A",
+            "difficulty": "Easy",
+            "tags": [
+                "⽹络"
+            ]
+        },
+        {
+            "id": 24,
+            "question": "在编程语⾔中，闭包（Closure）的概念是指（ ）",
+            "options": [
+                "A. ⼀个函数内部嵌套另⼀个函数",
+                "B. ⼀个函数返回⼀个整数",
+                "C. 函数可以返回其他函数并且记住其上下⽂",
+                "D. 变量只在局部范围内有效"
+            ],
+            "answer": "C",
+            "difficulty": "Easy",
+            "tags": [
+                "编程"
+            ]
+        },
+        {
+            "id": 25,
+            "question": "在操作系统中，进程和线程的主要区别是（ ）",
+            "options": [
+                "A. 进程⽐线程更轻量级",
+                "B. 线程可以独⽴运⾏",
+                "C. 进程有独⽴的地址空间",
+                "D. 线程不共享资源"
+            ],
+            "answer": "C",
+            "difficulty": "Easy",
+            "tags": [
+                "编程",
+                "操作系统"
+            ]
+        },
+        {
+            "id": 26,
+            "question": "⾯向对象编程中的封装的主要⽬的是（ ）",
+            "options": [
+                "A. 增加代码的可读性",
+                "B. 提⾼代码执⾏效率",
+                "C. 隐藏内部实现细节",
+                "D. 实现代码复⽤"
+            ],
+            "answer": "C",
+            "difficulty": "Easy",
+            "tags": [
+                "编程",
+                "⾯向对象"
+            ]
+        },
+        {
+            "id": 27,
+            "question": "在计算机⽹络中，ARP协议的主要功能是（ ）",
+            "options": [
+                "A. 将域名转换为IP地址",
+                "B. 将MAC地址转换为IP地址",
+                "C. 将IP地址转换为MAC地址",
+                "D. 进⾏流量控制"
+            ],
+            "answer": "C",
+            "difficulty": "Easy",
+            "tags": [
+                "⽹络"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "在⽹络分层模型中，IP地址属于哪⼀层的内容？",
+            "options": [
+                "A. 应⽤层",
+                "B. ⽹络层",
+                "C. 数据链路层",
+                "D. 传输层"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "⽹络"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "软件测试的主要⽬的是（ ）",
+            "options": [
+                "A. 验证软件是否符合⽤户需求",
+                "B. 发现并修复软件中的所有缺陷",
+                "C. 使软件达到零缺陷",
+                "D. 降低软件开发成本"
+            ],
+            "answer": "A",
+            "difficulty": "Easy",
+            "tags": [
+                "软件⼯程"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "在操作系统中，⻚表的主要作⽤是什么？（ ）",
+            "options": [
+                "A. 管理物理内存中的⻚框",
+                "B. 实现逻辑地址到物理地址的映射",
+                "C. 控制进程的CPU时间⽚",
+                "D. 存储进程的指令和数据"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "操作系统"
+            ]
+        },
+        {
+            "id": 31,
+            "question": "下列加密算法中，哪个是对称加密算法？（ ）",
+            "options": [
+                "A. RSA",
+                "B. AES",
+                "C. ECC",
+                "D. DSA"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "计算机基础"
+            ]
+        },
+        {
+            "id": 32,
+            "question": "在⽹络安全领域，哪种攻击⽅式可以⽤于⽂本框？（ ）",
+            "options": [
+                "A. DDOS",
+                "B. 命令注⼊",
+                "C. 路径遍历",
+                "D. 跨站攻击"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "⽹络"
+            ]
+        },
+        {
+            "id": 33,
+            "question": "在以下哪种情况下，使⽤哈希函数（如MD5或SHA-256）进⾏数据存储或验证通常不是最佳选择？（ ）",
+            "options": [
+                "A. 验证数据的完整性",
+                "B. 存储密码",
+                "C. 实现快速查找（如数据库索引）",
+                "D. 检测数据是否重复"
+            ],
+            "answer": "B",
+            "difficulty": "Easy",
+            "tags": [
+                "计算机基础",
+                "数据结构"
+            ]
+        },
+        {
+            "id": 34,
+            "question": "在数据库索引中，B-Tree索引与Hash索引的主要区别在于？（ ）",
+            "options": [
+                "A. B-Tree索引⽀持范围查询，⽽Hash索引不⽀持",
+                "B. B-Tree索引查询速度⽐Hash索引快",
+                "C. B-Tree索引占⽤存储空间更少",
+                "D. B-Tree索引只适⽤于等值查询"
+            ],
+            "answer": "A",
+            "difficulty": "Easy",
+            "tags": [
+                "数据库",
+                "数据结构"
+            ]
+        },
+        {
+            "id": 35,
+            "question": "在编译原理中，以下哪个阶段是将源代码中的⾼级语⾔转换为与⽬标机器相关的机器代码？",
+            "options": [
+                "A. 词法分析",
+                "B. 语法分析",
+                "C. 代码⽣成",
+                "D. 语义分析"
+            ],
+            "answer": "C",
+            "difficulty": "Easy",
+            "tags": [
+                "编译原理"
+            ]
+        },
+        {
+            "id": 36,
+            "question": "在编译原理中，以下哪个阶段是对源代码进⾏词法分析后，将词法单元序列转换成语法树的过程？",
+            "options": [
+                "A. 词法分析",
+                "B. 语法分析",
+                "C. 语义分析",
+                "D. 代码⽣成"
+            ],
+            "answer": "B",
+            "explanation": "",
+            "difficulty": "Easy",
+            "tags": [
+                "编译原理"
+            ]
+        },
+        {
+            "id": 37,
+            "question": "以下哪个不是计算机体系结构中常⻅的指令集架构？",
+            "options": [
+                "A. x86",
+                "B. ARM",
+                "C. MIPS",
+                "D. JVM"
+            ],
+            "answer": "D",
+            "explanation": "JVM是Java虚拟机，不是指令集架构，⽽是运⾏Java字节码的虚拟机环境；x86、ARM和MIPS都是常⻅的指令集架构",
+            "difficulty": "Easy",
+            "tags": [
+                "计算机体系结构"
+            ]
+        },
+        {
+            "id": 38,
+            "question": "在计算机⽹络中，以下哪个协议⽤于在IP层实现⽹络的虚拟化和逻辑分段？",
+            "options": [
+                "A. ARP",
+                "B. VLAN",
+                "C. ICMP",
+                "D. OSPF"
+            ],
+            "answer": "B",
+            "explanation": "VLAN，虚拟局域⽹，⽤于在IP层以下实现⽹络的虚拟化和逻辑分段",
+            "difficulty": "Easy",
+            "tags": [
+                "⽹络"
+            ]
+        },
+        {
+            "id": 39,
+            "question": "在操作系统中，以下哪个机制或概念与“⻚表”直接相关，并⽤于实现虚拟内存到物理内存的映射？",
+            "options": [
+                "A. 进程控制块",
+                "B. 段表",
+                "C. 内存分⻚",
+                "D. ⽂件描述符"
+            ],
+            "answer": "C",
+            "explanation": "",
+            "difficulty": "Easy",
+            "tags": [
+                "操作系统"
+            ]
+        },
+        {
+            "id": 40,
+            "question": "在⼆叉搜索树（BST）中查找最⼤值的复杂度为多少？",
+            "options": [
+                "A. O(1)",
+                "B. O(n)",
+                "C. O(log n)",
+                "D. O(n logn)"
+            ],
+            "answer": "C",
+            "explanation": "在平均情况下，查找⼆叉搜索树中的最⼤值只需沿着右⼦树遍历，最多遍历树的深度层数，因此复杂度为 O(log n)。在最坏情况下（退化为链表），复杂度为 O(n)。",
+            "difficulty": "Normal",
+            "tags": [
+                "数据结构"
+            ]
+        },
+        {
+            "id": 41,
+            "question": "以下哪种图的遍历算法适合⽤于检测图中的环？",
+            "options": [
+                "A. 深度优先搜索（DFS）",
+                "B. ⼴度优先搜索（BFS）",
+                "C. Dijkstra 算法",
+                "D. Kruskal 算法"
+            ],
+            "answer": "A",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "算法"
+            ]
+        },
+        {
+            "id": 42,
+            "question": "在解决以下哪种类型的问题时最适合使⽤动态规划？",
+            "options": [
+                "A. 最短路径问题",
+                "B. 最⼩⽣成树问题",
+                "C. 斐波那契数列",
+                "D. 排序问题"
+            ],
+            "answer": "C",
+            "explanation": "动态规划适⽤于具有重叠⼦问题的最优⼦结构问题。计算斐波那契数列就是⼀个经典的动态规划问题，可以通过保存中间结果减少重复计算。",
+            "difficulty": "Normal",
+            "tags": [
+                "算法"
+            ]
+        },
+        {
+            "id": 43,
+            "question": "在哈希表中，如何解决哈希冲突？",
+            "options": [
+                "A. 使⽤⼆叉搜索树",
+                "B. 使⽤链地址法（Chaining）",
+                "C. 仅允许唯⼀键",
+                "D. 使⽤图遍历算法"
+            ],
+            "answer": "B",
+            "explanation": "哈希冲突可以通过链地址法（Chaining）来解决，即每个桶内⽤⼀个链表存储多个键值对。另⼀种⽅法是开放地址法（Open Addressing）。",
+            "difficulty": "Normal",
+            "tags": [
+                "数据结构"
+            ]
+        },
+        {
+            "id": 44,
+            "question": "RISC 和 CISC 之间的主要区别是什么？",
+            "options": [
+                "A. RISC 的指令集⽐ CISC 更复杂",
+                "B. CISC 的指令集更简单，但执⾏速度更慢",
+                "C. RISC 使⽤较少的指令集，⽬标是提⾼执⾏速度",
+                "D. CISC 没有内存管理功能"
+            ],
+            "answer": "C",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "计算机体系结构"
+            ]
+        },
+        {
+            "id": 45,
+            "question": "在计算机中，控制单元的主要作⽤是什么？",
+            "options": [
+                "A. 管理内存",
+                "B. 执⾏算术和逻辑运算",
+                "C. 提供 I/O 接⼝",
+                "D. 控制所有计算机组件的协同⼯作"
+            ],
+            "answer": "D",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "计算机体系结构"
+            ]
+        },
+        {
+            "id": 46,
+            "question": "内存墙（Memory Wall）问题是指 CPU 和内存之间速度差距过⼤的现象，以下哪种技术⽤于缓解内存墙问题？",
+            "options": [
+                "A. 增加硬盘容量",
+                "B. 使⽤多核 CPU",
+                "C. 增加缓存层次和频率",
+                "D. 使⽤图形处理单元（GPU）"
+            ],
+            "answer": "C",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "计算机体系结构"
+            ]
+        },
+        {
+            "id": 47,
+            "question": "哪种调度算法可以防⽌⼀个进程被⽆限期地推迟执⾏？",
+            "options": [
+                "A. SJF（Shortest Job First）",
+                "B. 轮转调度（Round Robin）",
+                "C. FCFS（First-Come, First-Served）",
+                "D. ⾮抢占式优先级调度"
+            ],
+            "answer": "B",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "操作系统"
+            ]
+        },
+        {
+            "id": 48,
+            "question": "在多处理器系统中，以下哪种调度策略是常⽤的？",
+            "options": [
+                "A. 动态负载均衡",
+                "B. 静态分区",
+                "C. 轮转调度",
+                "D. 随机调度"
+            ],
+            "answer": "A",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "操作系统"
+            ]
+        },
+        {
+            "id": 49,
+            "question": "以下哪种同步原语可以在保证互斥的同时允许多个读者同时访问共享资源？",
+            "options": [
+                "A. 互斥锁（Mutex）",
+                "B. 读写锁（Readers-Writer Lock）",
+                "C. 信号量（Semaphore）",
+                "D. ⾃旋锁（Spinlock）"
+            ],
+            "answer": "B",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "并发",
+                "编程"
+            ]
+        },
+        {
+            "id": 50,
+            "question": "在递归算法中，递归调⽤的基准条件是为了防⽌ ",
+            "options": [
+                "A. 重复调⽤",
+                "B. 内存泄漏",
+                "C. ⽆限递归",
+                "D. 栈溢出"
+            ],
+            "answer": "C",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "算法"
+            ]
+        },
+        {
+            "id": 51,
+            "question": "以下哪种算法是⽤于解决背包问题的经典算法？",
+            "options": [
+                "A. 动态规划",
+                "B. 贪⼼算法",
+                "C. 递归回溯",
+                "D. 分治法"
+            ],
+            "answer": "A",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "算法"
+            ]
+        },
+        {
+            "id": 52,
+            "question": "判断两个单链表是否相交的最优操作是",
+            "options": [
+                "A. 遍历第⼀个链表的每个结点，依次与第⼆个链表的每个结点⽐较，如果存在相同的结点，则两个链表相交",
+                "B. 遍历第⼀个链表，将每个结点的指针保存到⼀个哈希表中，然后遍历第⼆个链表，检查每个结点是否在哈希表中，如果存在，则两个链表相交",
+                "C. 遍历第⼀个链表，将最后⼀个结点的指针指向第⼆个链表的头节点，然后判断第⼆个链表是否存在环，如果存在环，则两个链表相交",
+                "D. 遍历第⼀个链表，将最后⼀个结点的指针指向第⼆个链表的头节点，然后判断第⼀个链表是否存在环，如果存在环，则两个链表相交"
+            ],
+            "answer": "B",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "数据结构"
+            ]
+        },
+        {
+            "id": 53,
+            "question": "下列关于半监督学习的说法，正确的有",
+            "options": [
+                "A. 直推学习假定训练数据集中的未标记数据并⾮待预测数据",
+                "B. 半监督学习的训练集同时包含有标记样本数据和未标记样本数据",
+                "C. 纯半监督学习假定学习过程中的未标记数据就是待预测数据",
+                "D. 其余选项均正确"
+            ],
+            "answer": "B",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "机器学习"
+            ]
+        },
+        {
+            "id": 54,
+            "question": "下列哪⼀项在神经⽹络中引⼊了⾮线性",
+            "options": [
+                "A. 随机梯度下降",
+                "B. 修正线性单元（ReLU）",
+                "C. 卷积函数",
+                "D. 其余选项都不正确"
+            ],
+            "answer": "B",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "机器学习"
+            ]
+        },
+        {
+            "id": 55,
+            "question": "对于下列关键字序列，不可能构成某⼆叉排序树中⼀条查找路径的序列是？",
+            "options": [
+                "A. 90，17，83，24，85，71",
+                "B. 90，18，89，32，86，33",
+                "C. 19，87，75，27，34，36",
+                "D. 10，23，69，66，31，32"
+            ],
+            "answer": "A",
+            "explanation": "从 90 开始，17 ⼩于 90，可以是左⼦节点。83 ⼤于 17，可能是 17 的右⼦节点。24 ⼩于 83，但⼤于 17，符合⼆叉排序树的规则。85 ⼤于 83，可以是 83 的右⼦节点。71 ⼩于 83，但应该位于 85 的左侧，不符合⼆叉排序树规则。",
+            "difficulty": "Normal",
+            "tags": [
+                "数据结构"
+            ]
+        },
+        {
+            "id": 56,
+            "question": "在分布式数据库中，CAP定理指出不可能同时保证哪三项？",
+            "options": [
+                "A. 一致性、可用性、分区容错性",
+                "B. 并发性、持久性、隔离性",
+                "C. 安全性、可靠性、扩展性",
+                "D. 事务性、完整性、可用性"
+            ],
+            "answer": "A",
+            "difficulty": "Normal",
+            "tags": [
+                "数据库"
+            ]
+        },
+        {
+            "id": 57,
+            "question": "在数据库的事务管理中，ACID特性中的“一致性”是指？",
+            "options": [
+                "A. 事务完成后数据库的状态必须保持一致",
+                "B. 事务必须在单独的环境中执行",
+                "C. 事务的操作可以随时中止",
+                "D. 数据可以被多个用户同时访问"
+            ],
+            "answer": "A",
+            "difficulty": "Normal",
+            "tags": [
+                "数据库"
+            ]
+        },
+        {
+            "id": 58,
+            "question": "信号量在操作系统中的作用是？",
+            "options": [
+                "A. 解决死锁",
+                "B. 进行进程间通信",
+                "C. 进行进程同步",
+                "D. 提高内存利用率"
+            ],
+            "answer": "C",
+            "difficulty": "Normal",
+            "tags": [
+                "并发",
+                "操作系统"
+            ]
+        },
+        {
+            "id": 59,
+            "question": "如果一个多线程应用频繁地访问共享资源，但性能瓶颈却出现在锁等待时间上，以下哪一种策略可以减轻锁竞争的影响？",
+            "options": [
+                "A. 使用轻量级锁（如自旋锁）",
+                "B. 增加锁定资源的数量",
+                "C. 降低线程优先级",
+                "D. 强制线程在执行前休眠"
+            ],
+            "answer": "A",
+            "difficulty": "Normal",
+            "tags": [
+                "并发",
+                "操作系统"
+            ]
+        },
+        {
+            "id": 60,
+            "question": "在敏捷开发中，Scrum的主要组成部分包括？",
+            "options": [
+                "A. 需求池、开发迭代、产品发布",
+                "B. 产品待办事项列表、冲刺、每日站会",
+                "C. 瀑布式阶段",
+                "D. 测试驱动开发"
+            ],
+            "answer": "B",
+            "difficulty": "Normal",
+            "tags": [
+                "软件工程"
+            ]
+        },
+        {
+            "id": 61,
+            "question": "回归测试的主要目的是？",
+            "options": [
+                "A. 验证新功能的正确性",
+                "B. 检查代码中的语法错误",
+                "C. 确保修改不会引入新的缺陷",
+                "D. 验证性能优化是否成功"
+            ],
+            "answer": "C",
+            "difficulty": "Normal",
+            "tags": [
+                "软件工程"
+            ]
+        },
+        {
+            "id": 62,
+            "question": "守护进程退出后，其进程 ID（PID）会被操作系统？",
             "options": [
                 "A. 永久保留",
                 "B. 立刻删除",
@@ -70,46 +936,29 @@
                 "D. 与内存空间一起释放"
             ],
             "answer": "C",
-            "type": "选择题"
+            "difficulty": "Normal",
+            "tags": [
+                "操作系统"
+            ]
         },
         {
-            "id": 7,
-            "question": "Bash脚本中，如何检查一个变量是否为空？",
+            "id": 63,
+            "question": "在编程语言设计中，垃圾回收（GC）的主要目的是？",
             "options": [
-                "A. if [ $var == \"\" ]; then",
-                "B. if [ -z $var ]; then",
-                "C. if [ $var ]; then",
-                "D. if [ ! $var ]; then"
+                "A. 提高程序的运行速度",
+                "B. 清除无用内存占用",
+                "C. 增加编程复杂度",
+                "D. 提供多线程并发能力"
             ],
             "answer": "B",
-            "type": "选择题"
+            "explanation": "垃圾回收的目的是自动释放不再使用的内存，避免内存泄漏，提高内存利用率。",
+            "difficulty": "Normal",
+            "tags": [
+                "编程"
+            ]
         },
         {
-            "id": 8,
-            "question": "面向对象编程中的封装的主要目的是",
-            "options": [
-                "A. 增加代码的可读性",
-                "B. 提高代码执行效率",
-                "C. 隐藏内部实现细节",
-                "D. 实现代码复用"
-            ],
-            "answer": "C",
-            "type": "选择题"
-        },
-        {
-            "id": 9,
-            "question": "以下哪种同步原语可以在保证互斥的同时允许多个读者同时访问共享资源？",
-            "options": [
-                "A. 互斥锁（Mutex）",
-                "B. 读写锁（Readers-Writer Lock）",
-                "C. 信号量（Semaphore）",
-                "D. 自旋锁（Spinlock）"
-            ],
-            "answer": "B",
-            "type": "选择题"
-        },
-        {
-            "id": 10,
+            "id": 64,
             "question": "进程间通信（IPC）中，以下哪种方法是最适合在分布式系统中实现不同主机间的数据传递？",
             "options": [
                 "A. 管道（Pipe）",
@@ -118,10 +967,272 @@
                 "D. 消息队列（Message Queue）"
             ],
             "answer": "D",
-            "type": "选择题"
+            "explanation": "消息队列可以跨网络传输消息，因此适合分布式系统中不同主机的进程间通信。",
+            "difficulty": "Normal",
+            "tags": [
+                "编程",
+                "操作系统"
+            ]
+        },
+        {
+            "id": 65,
+            "question": "在图的最短路径算法中，Dijkstra 算法不能处理？",
+            "options": [
+                "A. 正权边",
+                "B. 负权边",
+                "C. 有向图",
+                "D. 无向图"
+            ],
+            "answer": "B",
+            "difficulty": "Normal",
+            "tags": [
+                "算法"
+            ]
+        },
+        {
+            "id": 66,
+            "question": "在内存分配中，以下哪种分配⽅式最可能引发内存碎⽚？",
+            "options": [
+                "A. 栈分配",
+                "B. 静态分配",
+                "C. 动态内存分配",
+                "D. 寄存器分配"
+            ],
+            "answer": "C",
+            "explanation": "动态内存分配会根据程序的需求在运⾏时分配内存，释放后可能导致内存碎⽚。",
+            "difficulty": "Normal",
+            "tags": [
+                "编程",
+                "操作系统"
+            ]
+        },
+        {
+            "id": 67,
+            "question": "在 软件开发中，持续集成（Continuous Integration）最重要的⽬的是？",
+            "options": [
+                "A. 增加测试次数",
+                "B. 减少代码错误的发现时间",
+                "C. 增加代码编写速度",
+                "D. 提供更多代码分⽀"
+            ],
+            "answer": "B",
+            "explanation": "持续集成可以在每次代码更改后⽴即进⾏测试，帮助开发⼈员及时发现并修复错误。",
+            "difficulty": "Normal",
+            "tags": [
+                "软件⼯程"
+            ]
+        },
+        {
+            "id": 68,
+            "question": "操作系统中，以下哪种调度算法在多任务环境中通常可以提供最低的响应时间？",
+            "options": [
+                "A. 先来先服务（FCFS）",
+                "B. 最短作业优先（SJF）",
+                "C. 时间⽚轮转（Round Robin）",
+                "D. 最⾼响应⽐优先（HRRN）"
+            ],
+            "answer": "C",
+            "explanation": "时间⽚轮转通过公平分配时间⽚给每个任务，通常能够提供较低的响应时间，适合多任务环境。",
+            "difficulty": "Normal",
+            "tags": [
+                "操作系统"
+            ]
+        },
+        {
+            "id": 69,
+            "question": "⼀个栈的⼊栈序列是A, B, C, D, E, 则栈的不可能的输出序列是？",
+            "options": [
+                "A. EDCBA",
+                "B. ABCDE",
+                "C. DCEAB",
+                "D. DECBA"
+            ],
+            "answer": "C",
+            "explanation": "遵循栈的先⼊后出原则。",
+            "difficulty": "Normal",
+            "tags": [
+                "数据结构"
+            ]
+        },
+        {
+            "id": 70,
+            "question": "TCP协议与UDP协议的主要区别之⼀是？",
+            "options": [
+                "A. TCP是⽆连接的，⽽UDP是⾯向连接的",
+                "B. UDP适⽤于可靠传输，⽽TCP不适⽤",
+                "C. TCP提供拥塞控制，UDP不提供",
+                "D. TCP和UDP均不提供校验"
+            ],
+            "answer": "C",
+            "explanation": "TCP提供拥塞控制，UDP不提供。",
+            "difficulty": "Normal",
+            "tags": [
+                "⽹络"
+            ]
+        },
+        {
+            "id": 71,
+            "question": "在以太⽹中，哪种拓扑结构可以实现最⼤化的冗余路径？",
+            "options": [
+                "A. 星型拓扑",
+                "B. 总线拓扑",
+                "C. 环型拓扑",
+                "D. ⽹状拓扑"
+            ],
+            "answer": "D",
+            "explanation": "",
+            "difficulty": "Normal",
+            "tags": [
+                "⽹络"
+            ]
+        },
+        {
+            "id": 72,
+            "question": "在软件测试中，以下哪种⽅法属于动态测试？",
+            "options": [
+                "A. 静态代码审查",
+                "B. ⽩盒测试",
+                "C. ⽤例设计",
+                "D. 软件⽂档审查"
+            ],
+            "answer": "B",
+            "explanation": "⽩盒测试在程序运⾏时进⾏，因此属于动态测试⽅法。",
+            "difficulty": "Hard",
+            "tags": [
+                "软件⼯程"
+            ]
+        },
+        {
+            "id": 73,
+            "question": "设计模式中，哪⼀种模式主要通过对象的组合⽽不是继承来获取新的⾏为？",
+            "options": [
+                "A. 装饰模式",
+                "B. ⼯⼚模式",
+                "C. 单例模式",
+                "D. 原型模式"
+            ],
+            "answer": "A",
+            "explanation": "装饰模式在不使⽤继承的情况下动态地向对象添加⾏为。",
+            "difficulty": "Hard",
+            "tags": [
+                "设计模式"
+            ]
+        },
+        {
+            "id": 74,
+            "question": "在 数据库事务 中，哪⼀种隔离级别能够防⽌脏读（Dirty Read），但不能防⽌不可重复读（Non-repeatable Read）？",
+            "options": [
+                "A. 读未提交（Read Uncommitted）",
+                "B. 读已提交（Read Committed）",
+                "C. 可重复读（Repeatable Read）",
+                "D. 序列化（Serializable）"
+            ],
+            "answer": "B",
+            "explanation": "读已提交能够防⽌脏读，但在并发事务中可能导致不可重复读。",
+            "difficulty": "Hard",
+            "tags": [
+                "数据库"
+            ]
+        },
+        {
+            "id": 75,
+            "question": "CPU 从内存读取数据时，数据⾸先被传递到哪个地⽅进⾏处理？",
+            "options": [
+                "A. 硬盘",
+                "B. ROM",
+                "C. 缓存（Cache）",
+                "D. 寄存器（Register）"
+            ],
+            "answer": "D",
+            "explanation": "寄存器是 CPU 内部的⾼速存储单元，数据从内存传⼊ CPU 后通常先存储在寄存器中，便于快速处理。",
+            "difficulty": "Normal",
+            "tags": [
+                "计算机体系结构"
+            ]
+        },
+        {
+            "id": 76,
+            "question": "抢占式调度与⾮抢占式调度的区别在于：",
+            "options": [
+                "A. 抢占式调度允许进程占⽤ CPU",
+                "B. ⾮抢占式调度更适合实时系统",
+                "C. 抢占式调度允许中断当前进程",
+                "D. ⾮抢占式调度优先级更⾼"
+            ],
+            "answer": "C",
+            "explanation": "抢占式调度可以中断正在执⾏的进程并切换到另⼀个进程。",
+            "difficulty": "Hard",
+            "tags": [
+                "操作系统"
+            ]
+        },
+        {
+            "id": 77,
+            "question": "在 ⾯向对象编程 中，哪个设计原则强调尽量使⽤接⼝⽽⾮具体类？",
+            "options": [
+                "A. 单⼀职责原则",
+                "B. 依赖倒置原则",
+                "C. 开放-关闭原则",
+                "D. 最少知识原则"
+            ],
+            "answer": "B",
+            "explanation": "",
+            "difficulty": "Hard",
+            "tags": [
+                "⾯向对象",
+                "编程"
+            ]
+        },
+        {
+            "id": 78,
+            "question": "TCP 三次握⼿的第三步中，如果客户端没有收到服务器的 ACK 应答，客户端的下⼀步操作是：",
+            "options": [
+                "A. ⽴即断开连接",
+                "B. 重发 SYN 数据包",
+                "C. 重新发送 ACK 包",
+                "D. 停⽌传输，等待下次连接"
+            ],
+            "answer": "B",
+            "explanation": "TCP 会重新发送未确认的包，确保连接可靠建⽴。",
+            "difficulty": "Hard",
+            "tags": [
+                "⽹络"
+            ]
+        },
+        {
+            "id": 79,
+            "question": "计算机体系结构中，为了提⾼缓存命中率，以下哪种技术会将程序代码和数据局部化，减少缓存失效？",
+            "options": [
+                "A. 循环展开",
+                "B. 数据预取",
+                "C. 分⽀预测",
+                "D. 虚拟内存"
+            ],
+            "answer": "A",
+            "explanation": "",
+            "difficulty": "Hard",
+            "tags": [
+                "计算机体系结构"
+            ]
+        },
+        {
+            "id": 80,
+            "question": "实现⾼并发系统时，如何设计⼀种⽆锁（Lock-Free）数据结构，如⽆锁队列，以避免线程阻塞？",
+            "options": [
+                "A. 使⽤CAS（Compare-and-Swap）操作",
+                "B. 使⽤互斥锁",
+                "C. 使⽤递归调⽤",
+                "D. 增加线程数量"
+            ],
+            "answer": "A",
+            "explanation": "",
+            "difficulty": "Hard",
+            "tags": [
+                "并发"
+            ]
         }
     ],
-    "tiankongti": [
+    "填空题": [
         {
             "id": 16,
             "question": "在图的遍历中，广度优先搜索（BFS）使用的数据结构是__________，而深度优先搜索（DFS）使用的数据结构是__________。",
@@ -166,11 +1277,9 @@
                 "功能"
             ],
             "type": "填空题"
-        }
-    ],
-    "bianchengti": [
+        },
         {
-            "id": 17,
+            "id": 21,
             "question": "在图的遍历中，广度优先搜索（BFS）使用的数据结构是__________，而深度优先搜索（DFS）使用的数据结构是__________。",
             "answers": [
                 "队列",
